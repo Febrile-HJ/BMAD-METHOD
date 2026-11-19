@@ -13,7 +13,7 @@ permissions:
 jobs:
   sync:
     name: Merge upstream main
-    if: github.repository == 'Febrile-JoJoo/BMAD-METHOD'
+    if: github.repository == 'Febrile-HJ/BMAD-METHOD'
     runs-on: ubuntu-latest
     steps:
       # Plain git only: this repository's Actions policy allows no
